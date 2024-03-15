@@ -16,6 +16,7 @@ I have made it my task to make this incredibly useful tool also usable for Blazo
 You need .NET 7.0 or newer to use this library.
 
 [Download .NET 7](https://dotnet.microsoft.com/download/dotnet/7.0)
+[Download .NET 8](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 You also need the gRPC-Web Developer Tools Chrome Extsion
 

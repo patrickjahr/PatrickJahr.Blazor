@@ -14,7 +14,7 @@
 	  <Company>PatrickJahr</Company>
 	  <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
-	  <PackageTags>ProjectFugu PWA Update ServiceWorker Blazor Wasm Wrapper JSInterop</PackageTags>
+	  <PackageTags>ProjectFugu PWA Update ServiceWorker Blazor WebAssembly Wasm Wrapper JSInterop</PackageTags>
 	  <RepositoryUrl>https://github.com/PatrickJahr/PatrickJahr.Blazor</RepositoryUrl>
 	  <RepositoryType>git</RepositoryType>
   </PropertyGroup>

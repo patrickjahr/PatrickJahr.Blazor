@@ -16,6 +16,7 @@ https://github.com/PatrickJahr/PatrickJahr.Blazor/assets/16818441/5a56379d-5e82-
 You need .NET 7.0 or newer to use this library.
 
 [Download .NET 7](https://dotnet.microsoft.com/download/dotnet/7.0)
+[Download .NET 8](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 ### Platform/Browser support
 

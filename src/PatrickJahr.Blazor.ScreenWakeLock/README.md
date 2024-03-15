@@ -15,6 +15,7 @@ The Screen Wake Lock API allows web applications to request a screen wake lock. 
 You need .NET 7.0 or newer to use this library.
 
 [Download .NET 7](https://dotnet.microsoft.com/download/dotnet/7.0)
+[Download .NET 8](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 ### Platform support
 
