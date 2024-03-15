@@ -1,6 +1,6 @@
 {
-  "name": "Thinktecture.Blazor.Sample",
-  "short_name": "Thinktecture.Blazor.Sample",
+  "name": "PatrickJahr.Blazor.Sample",
+  "short_name": "PatrickJahr.Blazor.Sample",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -18,10 +18,12 @@
       "sizes": "192x192"
     }
   ],
-  "file_handlers": [{
-    "action": "./file-handling",
-    "accept": {
-      "text/plain": [".txt"]
+  "file_handlers": [
+    {
+      "action": "./file-handling",
+      "accept": {
+        "text/plain": [".txt"]
+      }
     }
-  }]
+  ]
 }
