@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PatrickJahr.Blazor.Sample",
   "resources": {
-    "hash": "sha256-yQUoGJ6zqtGEqsa57MOVa+FbEyX1Ny/0CqCZ6LQOOU8=",
+    "hash": "sha256-ChskleiE2g2c6B4E3X5RvtAJvS9BqFEviQwl6+96rbE=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.mlmake7rjw.js": "sha256-QH/uhHhJEw5oujuUV2WHVgh14xOn5kYENmWMViSuh/0="
     },
@@ -42,14 +42,14 @@
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-Kr13V+6zGL8rPvFmuBAsaEJfoMlR4Q8keJHKaVGVbGA=",
       "netstandard.wasm": "sha256-tGuIgQvUGK5+2oqpfU54StzxMxhMFUBfkgOjMpO6Kgc=",
       "Newtonsoft.Json.wasm": "sha256-PaicHOw1U7HF05kEvZI0Rgg1nwdA8hrzbzdkw1qgUuU=",
-      "PatrickJahr.Blazor.AsyncClipboard.wasm": "sha256-uCOMUBHMh4Q+ySWxn2GAtpve4dCSUsrrds1+TaCXCXA=",
-      "PatrickJahr.Blazor.Badging.wasm": "sha256-f6bMe1y33ayJiQjlnoHZr4Yo0Z222V2kbz+Q8TeL7NM=",
-      "PatrickJahr.Blazor.FileHandling.wasm": "sha256-MW1q2skUGmZHGTeVJtKGlaskTS3Lf2v2xi7Qib7WbX4=",
-      "PatrickJahr.Blazor.PwaUpdate.wasm": "sha256-uRq2/92XnPUeREi8WOaaXpp/44TbW6rM/ZgjwQecCmk=",
-      "PatrickJahr.Blazor.Sample.wasm": "sha256-a46aT1tPrJLiIG0F0luMvNaaRaUj0pWrux4zxtoUigQ=",
-      "PatrickJahr.Blazor.ScreenWakeLock.wasm": "sha256-d444wp1HPN3CBk8fhL2O+tmas6eduRwTONYdg8vQuj8=",
-      "PatrickJahr.Blazor.ViewTransitions.wasm": "sha256-qXYB1P/N9Unvn8evDvr0faE9GnJ9BIry9/20hzLJBpk=",
-      "PatrickJahr.Blazor.WebShare.wasm": "sha256-C2q1y5nfD8fNTxk0PxgGKHxLtzprZHof33QKx6spj/Y=",
+      "PatrickJahr.Blazor.AsyncClipboard.wasm": "sha256-vTqxeV80Gpu1fA6Sr8xhvtxuv1xNEZSMNSRKCOyOLdQ=",
+      "PatrickJahr.Blazor.Badging.wasm": "sha256-7+ChWL+GjVxirawVLbEdwVPuntQyIEvKFpvc8Ti/y6M=",
+      "PatrickJahr.Blazor.FileHandling.wasm": "sha256-InLE6LHT7eqQfv0O6i1odWB4b337m53tQ2/TFy6ZPqs=",
+      "PatrickJahr.Blazor.PwaUpdate.wasm": "sha256-7Fk/hwn+oRMf3BGAJiZCVTnI+176SajbgHCCQTU2huI=",
+      "PatrickJahr.Blazor.Sample.wasm": "sha256-1wnMWrm7pUaV42P3lBdlo+SNOYDWTfL3bhtQ+vsryYk=",
+      "PatrickJahr.Blazor.ScreenWakeLock.wasm": "sha256-ToLvvDmsTIt38931m3/vL4HTtppBAuN4YJhzK/XCvRs=",
+      "PatrickJahr.Blazor.ViewTransitions.wasm": "sha256-F2z/Hp0L+whuNgckborXjjL2q6QHBTYEOuuvazopYEs=",
+      "PatrickJahr.Blazor.WebShare.wasm": "sha256-wjFRTtMmzTzl9CsxdhDeYa9MLOYXRE7VsbPk4y2CK+0=",
       "System.Collections.Concurrent.wasm": "sha256-moU2Z2BznFfXCXtF4IAVFTXiU/B3bFTln6+PuHsMWM4=",
       "System.Collections.Immutable.wasm": "sha256-ZwXNGvZY+sZ/+vNqB3iCIRYmjCy0u6IgTIG5lBNX3sk=",
       "System.Collections.NonGeneric.wasm": "sha256-AuHXXRmPVe9alAE2QQ5SIpKmxzGhYfr5neE7ZypWnAo=",
