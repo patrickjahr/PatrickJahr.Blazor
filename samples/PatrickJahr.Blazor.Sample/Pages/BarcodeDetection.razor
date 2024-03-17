@@ -5,6 +5,11 @@
     {
         <p>@barcode</p>
     }
+
+    <img src="./barcode.png" alt="Barcode" @ref="_barcode" />
+    <button @onclick="DetectBarCodes">Detect Barcodes</button>
+    
+    <p>@result</p>
 } else {
     <p>Barcode is not supported!</p>
 }

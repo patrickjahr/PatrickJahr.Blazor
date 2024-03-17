@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 
 namespace PatrickJahr.Blazor.BarcodeDetection;
@@ -33,6 +34,17 @@ public class BarcodeDetectionService {
     public async Task<string[]> GetSupportedFormatsAsync() {
         var module = await _moduleTask.Value;
         return await module.InvokeAsync<string[]>("supportedFormats");
+    }
+
+    public async Task<string[]> DetectCode(IJSObjectReference file, string[] formats) {
+        var module = await _moduleTask.Value;
+        return await module.InvokeAsync<string[]>("detectBarcode", file, formats);
+    }
+    
+    public async Task<string[]> DetectCodeByElement(ElementReference file, string[] formats) {
+        var module = await _moduleTask.Value;
+        var result = await module.InvokeAsync<string[]>("detectBarcode", file, formats);
+        return result;
     }
 
     /// <summary>

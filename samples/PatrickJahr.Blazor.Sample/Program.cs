@@ -1,4 +1,5 @@
 using Fluxor;
+using KristofferStrube.Blazor.FileSystemAccess;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using PatrickJahr.Blazor.AsyncClipboard;
@@ -29,5 +30,6 @@ builder.Services.AddWebShareService();
 builder.Services.AddUpdateService();
 builder.Services.AddScreenWakeLockService();
 builder.Services.AddViewTransitionService();
+builder.Services.AddFileSystemAccessService();
 
 await builder.Build().RunAsync();
