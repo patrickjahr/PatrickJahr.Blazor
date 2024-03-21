@@ -1,15 +1,40 @@
 @page "/bar-code-detection"
 
 @if (_isSupported) {
-    @foreach (var barcode in _barcodes)
-    {
-        <p>@barcode</p>
-    }
+    <h4>Supported Barcode Formats</h4>
+    <div class="barcode-container">
+        @foreach (var barcode in _barcodes)
+        {
+            <div class="barcode-format">
+                <img src="@($"./images/barcode-formats/{barcode}.png")" alt="@barcode">
+                <p>@barcode</p>
+            </div>
+        }
+    </div>
 
-    <img src="./barcode.png" alt="Barcode" @ref="_barcode" />
-    <button @onclick="DetectBarCodes">Detect Barcodes</button>
+    <h4>Sample usages to detect a barcode</h4>
+    <div class="sample-container">
+        <div class="sample">
+            <h5>Detect by image element</h5>
+            <img src="./images/barcode.png" alt="Barcode" @ref="_barcode" />
+            <button class="btn btn-primary"  @onclick="DetectBarCodes">Detect Barcodes</button>
+            <p>@result</p>
+        </div>
+        <div class="sample">
+            <h5>Detect by camera</h5>
+            <div class="@(showVideo ? "overlay active" : "overlay")">
+                <video @ref="_video"></video>
+            </div>
+            <button class="btn btn-primary" @onclick="DetectContentsByVideo">Detect Content</button>
+            <p>@videoResult</p>
+        </div>
+        <div class="sample">
+            <h5>Detect by file handle</h5>
+            <button class="btn btn-primary" @onclick="SelectFileAndDetecBarcode">Detect Content</button>
+            <p>@imageResult</p>
+        </div>
+    </div>
     
-    <p>@result</p>
 } else {
     <p>Barcode is not supported!</p>
 }
