@@ -106,6 +106,12 @@ a,
   content: var(--blazor-load-percentage-text, "Loading");
 }
 
+/*FACE DETECTION SAMPLE*/
+.face {
+  position: absolute;
+  border: 5px solid yellow;
+}
+
 /*VIEW TRANSTIONS ANIMATIONS*/
 ::view-transition-group(*) {
   animation-duration: 300ms;

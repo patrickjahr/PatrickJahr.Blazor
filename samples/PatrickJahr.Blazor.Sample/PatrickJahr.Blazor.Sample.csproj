@@ -26,6 +26,9 @@
     <ProjectReference Include="..\..\src\PatrickJahr.Blazor.ScreenWakeLock\PatrickJahr.Blazor.ScreenWakeLock.csproj" />
     <ProjectReference Include="..\..\src\PatrickJahr.Blazor.ViewTransitions\PatrickJahr.Blazor.ViewTransitions.csproj" />
     <ProjectReference Include="..\..\src\PatrickJahr.Blazor.WebShare\PatrickJahr.Blazor.WebShare.csproj" />
+    <ProjectReference Include="..\..\src\PatrickJahr.Blazor.FaceDetection\PatrickJahr.Blazor.FaceDetection.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 
   <ItemGroup>

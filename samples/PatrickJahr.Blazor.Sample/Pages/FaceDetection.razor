@@ -1,0 +1,8 @@
+@page "/face-detection"
+
+@if (_isFaceDetectionSupported) {
+    <div id="wrapper">
+    <img src="./images/face-detection/face_detection_sample.jpg" crossorigin alt="sample face detection" @ref="_image"/>
+    <button @onclick="DetectFaces">Detect</button>
+    </div>
+}
