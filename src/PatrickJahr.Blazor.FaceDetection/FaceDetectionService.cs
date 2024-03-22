@@ -18,10 +18,10 @@ public class FaceDetectionService : IAsyncDisposable
         return await module.InvokeAsync<bool>("isSupported");
     }
 
-    public async Task<int> DetectFacesAsync(ElementReference element)
+    public async Task<FaceDetectionResult[]> DetectFacesAsync(ElementReference element)
     {
         var module = await _moduleTask.Value;
-        return await module.InvokeAsync<int>("detectFaces", element);
+        return await module.InvokeAsync<FaceDetectionResult[]>("detectFaces", element);
     }
 
     public async ValueTask DisposeAsync()

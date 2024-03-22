@@ -1,28 +1,33 @@
+using System.Globalization;
 using Microsoft.AspNetCore.Components;
 using PatrickJahr.Blazor.FaceDetection;
 
-namespace PatrickJahr.Blazor.Sample.Pages
+namespace PatrickJahr.Blazor.Sample.Pages;
+
+public partial class FaceDetection
 {
-    public partial class FaceDetection
+    private FaceDetectionResult[] _faces = Array.Empty<FaceDetectionResult>();
+    private readonly List<string> _facesStyle = new();
+
+    private ElementReference? _image;
+    private bool _isFaceDetectionSupported;
+    [Inject] private FaceDetectionService _faceDetectionService { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
     {
-        [Inject] private FaceDetectionService _faceDetectionService { get; set; } = default!;
+        _isFaceDetectionSupported = await _faceDetectionService.IsSupportedAsync();
+        await base.OnInitializedAsync();
+    }
 
-        private ElementReference? _image;
-        private bool _isFaceDetectionSupported;
-
-        protected override async Task OnInitializedAsync()
+    private async Task DetectFaces()
+    {
+        if (_image.HasValue)
         {
-            _isFaceDetectionSupported = await _faceDetectionService.IsSupportedAsync();
-            await base.OnInitializedAsync();
-        }
-
-        private async Task DetectFaces()
-        {
-            if (_image.HasValue)
-            {
-                var count = await _faceDetectionService.DetectFacesAsync(_image.Value);
-                Console.WriteLine($"{count} faces detected");
-            }
+            _faces = await _faceDetectionService.DetectFacesAsync(_image.Value);
+            foreach (var face in _faces)
+                _facesStyle.Add(
+                    $"width: {face.BoundingBox.Width!.Value.ToString(CultureInfo.InvariantCulture)}px; height: {face.BoundingBox.Height!.Value.ToString(CultureInfo.InvariantCulture)}px; top: {face.BoundingBox.Top!.Value.ToString(CultureInfo.InvariantCulture)}px; left: {face.BoundingBox.Left!.Value.ToString(CultureInfo.InvariantCulture)}px");
+            await InvokeAsync(StateHasChanged);
         }
     }
 }

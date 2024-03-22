@@ -1,8 +1,17 @@
 @page "/face-detection"
 
-@if (_isFaceDetectionSupported) {
+@if (_isFaceDetectionSupported)
+{
     <div id="wrapper">
-    <img src="./images/face-detection/face_detection_sample.jpg" crossorigin alt="sample face detection" @ref="_image"/>
-    <button @onclick="DetectFaces">Detect</button>
+        <img src="./images/face-detection/face_detection_sample.jpg" crossorigin alt="sample face detection" @ref="_image"/>
+        @if (_facesStyle.Count > 0)
+        {
+            @foreach (var face in _facesStyle)
+            {
+                <div class="face" style="@face"></div>
+            }
+        }
+
+        <button @onclick="DetectFaces">Detect</button>
     </div>
 }
