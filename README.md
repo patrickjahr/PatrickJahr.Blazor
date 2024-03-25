@@ -10,6 +10,10 @@ The Async Clipboard API allows you to write and read text, images and other data
 
 The Badging API allows you to display a badge on the installed application’s icon.
 
+## [PatrickJahr.Blazor.BarcodeDetection](src/PatrickJahr.Blazor.BarcodeDetection/README.md)
+
+The BarcodeDetection API allows you detect barcode from picture or video stream.
+
 ## [PatrickJahr.Blazor.FileHandling](src/PatrickJahr.Blazor.FileHandling/README.md)
 
 The File Handling API allows you to register your Progressive Web App as a file handler for certain file types.
