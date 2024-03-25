@@ -12,7 +12,7 @@ The Badging API allows you to display a badge on the installed application’s i
 
 ## [PatrickJahr.Blazor.BarcodeDetection](src/PatrickJahr.Blazor.BarcodeDetection/README.md)
 
-The BarcodeDetection API allows you detect barcode from picture or video stream.
+The Barcode Detection API allows you detect barcode from picture or video stream.
 
 ## [PatrickJahr.Blazor.FileHandling](src/PatrickJahr.Blazor.FileHandling/README.md)
 
