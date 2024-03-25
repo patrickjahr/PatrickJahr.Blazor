@@ -161,7 +161,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-4lpp5GMcP3eOOzmiwNvaMQurCDFdPJoxiNY49XnIicg=",
+      "hash": "sha256-wNVyV29TUDk+TV6V+CVg+3k81\/wHeebR8kyfIq7uJO8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -277,39 +277,39 @@
       "url": "_framework\/Newtonsoft.Json.wasm"
     },
     {
-      "hash": "sha256-9T+cm8z4nvIF2wD8Mk\/jKEdu1YtOFtPow3z1pULbr6E=",
+      "hash": "sha256-rjAxgo4GJ1YxkGeNf5pLZ2xHVk0d7Qir+Cj2kS\/QB28=",
       "url": "_framework\/PatrickJahr.Blazor.AsyncClipboard.wasm"
     },
     {
-      "hash": "sha256-FCliBzl7\/txxwjJo\/iPWb1CQJN1Y9diwL3IrGrqwhEw=",
+      "hash": "sha256-e0ED44HKFUFRMAx5U8m2H7ieK\/nHBQtWpQhBzVrqYSw=",
       "url": "_framework\/PatrickJahr.Blazor.Badging.wasm"
     },
     {
-      "hash": "sha256-pmuh6ErA\/+C4EMyKrmoX3b5i6WFB2t0snX2gfcB4YNk=",
+      "hash": "sha256-59VsYH50zyB\/vhAQiP0aI22WVsJXtOAt\/pEcvQQdZ7w=",
       "url": "_framework\/PatrickJahr.Blazor.BarcodeDetection.wasm"
     },
     {
-      "hash": "sha256-4qVvFiyESUqY1mZtDkb\/WQCa6gf5bVkZYdIR5HyCipg=",
+      "hash": "sha256-jRa55wDl8MYlO9nf00fI\/6u6DKfj7vD\/0gxBKq0Fx8U=",
       "url": "_framework\/PatrickJahr.Blazor.FileHandling.wasm"
     },
     {
-      "hash": "sha256-oSQumFZAshU\/i\/CUbf7gpjTbNIwDs8m9GYc1H\/FqRRA=",
+      "hash": "sha256-ACUOjs\/VgwtIHM7fArLnZMFU5ZnDYAwbi7sg5U8qSoQ=",
       "url": "_framework\/PatrickJahr.Blazor.PwaUpdate.wasm"
     },
     {
-      "hash": "sha256-CZx95\/jll9ZJETxzp3KzXjQYnEYwsIIE2jp2trVPovo=",
+      "hash": "sha256-x1G+AiYPg8O1\/pnvfyA1\/7Kn78GR9cmziy0cCvaSEls=",
       "url": "_framework\/PatrickJahr.Blazor.Sample.wasm"
     },
     {
-      "hash": "sha256-SF9rXs2IPEoImKMgg5GYbVN6ZMwkgdc9KFIPeFU73u0=",
+      "hash": "sha256-NctsYNSsGqVFY8jpUYmTPBetoJh5dsfcPOtsn6Z81dA=",
       "url": "_framework\/PatrickJahr.Blazor.ScreenWakeLock.wasm"
     },
     {
-      "hash": "sha256-Pp7Rp0eV5VUry47VwbeHEmgybBjmYw2gKvVymWBJtGc=",
+      "hash": "sha256-SVs7DIbHtaye34CymAlh1ygLIPr1PnwDrhI0Ji0xPQY=",
       "url": "_framework\/PatrickJahr.Blazor.ViewTransitions.wasm"
     },
     {
-      "hash": "sha256-VCk8rZtLCwznZ+Rw5gYKfAY9gt3KB6yvMSFQIGXZezU=",
+      "hash": "sha256-aqLMMRq+nNGyZVQplOADcRuDJ+aLwEcBnA8wMCp\/1vw=",
       "url": "_framework\/PatrickJahr.Blazor.WebShare.wasm"
     },
     {
@@ -537,5 +537,5 @@
       "url": "_content\/PatrickJahr.Blazor.PwaUpdate\/PatrickJahr.Blazor.PwaUpdate.bundle.scp.css"
     }
   ],
-  "version": "gZJgzPfS"
+  "version": "miv73Fje"
 };
